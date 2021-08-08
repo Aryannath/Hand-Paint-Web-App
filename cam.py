@@ -4,16 +4,62 @@ import HandTrackingModule as htm
 import numpy as np
 import streamlit as st
 
-st.title("web app")
+st.title("Camera Hand Paint Web App")
+st.text("")
+st.markdown('<p>This is a computer vision based project which is using state-of-art computer vision libraries such as MediaPipe which is provided by Google and OpenCV and other libraries such as Streamlit which is providing an interactive UI which works as front-end for the project. The complete project is hosted on Heroku in the form of a web app. </p>', unsafe_allow_html=True)
+st.text("")
+st.markdown('<p>The following are the ways in which you can use the application :- <p/>',unsafe_allow_html=True)
+st.text("")
 
-run = st.checkbox('Run')
+col1,col2,col3,col4 = st.columns(4)
+with col1:
+    st.image('1.jpg', width=150)
+with col2:
+    st.write('Use your Index finger and Middle finger to select a colour')
+with col3:
+    st.image('2.jpg', width=150)
+with col4:
+    st.write('Use your Index finger only to draw')
 
+
+#img1 = Image.open("1.jpg")
+#st.image(img1, width=200)
+
+#st.markdown('<h3 style="float: left;">Use your Index finger and Middle finger to select a colour</h3><img style="float: right;" src="2.jpg" />', unsafe_allow_html=True)
+#st.markdown('<h3 style="float: left;">Use your Index finger only to draw</h3><img style="float: right;" src="1.jpg" />', unsafe_allow_html=True)
+
+#img2 = Image.open("2.jpg")
+#st.image(img2, width=200)
+
+#run = st.checkbox('Run')
+
+st.text("")
+st.text("")
+
+m = st.markdown("""
+<style>
+div.stButton > button:first-child {
+    background-color: rgb(0, 230, 64);
+    height: 35px;
+    width: 20%;
+}
+</style>""", unsafe_allow_html=True)
+
+click = st.button('Click to start')
 FRAME_WIN = st.image([])
 
+st.text("")
+st.text("")
+st.text("")
+st.text("")
+co1,co2 = st.columns(2)
+with co1:
+    st.markdown('[Source Code ](https://github.com/Aryannath/Hand-Paint-Web-App) ',unsafe_allow_html=True)
+with co2:
+    st.markdown('[Contact Me ](https://aryanuwu.myportfolio.com/) ',unsafe_allow_html=True)
 
 
-
-while run:
+while click:
 
     ###################
     #variables
@@ -184,5 +230,4 @@ while run:
         img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
         FRAME_WIN.image(img)
 
-else:
-    st.write('stopped')        
+        
