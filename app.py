@@ -6,7 +6,7 @@ import streamlit as st
 
 st.title("Camera Hand Paint Web App")
 st.text("")
-st.markdown('<p>This is a computer vision based project which is using state-of-art computer vision libraries such as MediaPipe which is provided by Google and OpenCV and other libraries such as Streamlit which is providing an interactive UI which works as front-end for the project. The complete project is hosted on Heroku in the form of a web app. </p>', unsafe_allow_html=True)
+st.markdown('<p>This is a computer vision based project which is using state-of-art computer vision libraries such as MediaPipe which is provided by Google and OpenCV and other libraries such as Streamlit which is providing an interactive UI which works as front-end for the project. </p>', unsafe_allow_html=True)
 st.text("")
 st.markdown('<p>The following are the ways in which you can use the application :- <p/>',unsafe_allow_html=True)
 st.text("")
