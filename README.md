@@ -5,3 +5,5 @@
  * Make a new virtual environment in python
  * Install all the libraries mentioned in the **requirements.txt** 
  * Run the command ***streamlit run app.py***
+
+[Contact Me ](https://aryanuwu.myportfolio.com/) for any queries
