@@ -1,4 +1,4 @@
-![Screenshot (62)](https://user-images.githubusercontent.com/26514224/129318424-a4f0d0a7-aa7a-410a-b0e4-403a3c909deb.png)
+![Screenshot (64)](https://user-images.githubusercontent.com/26514224/129475256-b093112b-5ffe-4ff0-9430-f4fc4427a28d.png)
 # Hand-Paint-Web-App
 ### Steps to use it:
  * Download this whole repository
